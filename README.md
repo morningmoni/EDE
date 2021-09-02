@@ -1,3 +1,5 @@
+The repo provides the code for paper ["Extract, Denoise and Enforce: Evaluating and Improving Concept Preservation for Text-to-Text Generation"](https://arxiv.org/abs/2104.08724) EMNLP 2021
+
 ## Code
 
 The code is based on the [seq2seq examples](https://github.com/huggingface/transformers/tree/master/examples) of huggingface transformers (3.0 <= version < 4.0)
