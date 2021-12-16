@@ -1,6 +1,8 @@
-The repo provides the code for paper ["Extract, Denoise and Enforce: Evaluating and Improving Concept Preservation for Text-to-Text Generation"](https://arxiv.org/abs/2104.08724) EMNLP 2021
+The repo provides the code for paper ["Extract, Denoise and Enforce: Evaluating and Improving Concept Preservation for Text-to-Text Generation"](https://arxiv.org/abs/2104.08724) EMNLP 2021 and ["Constrained Abstractive Summarization: Preserving Factual Consistency with Constrained Generation"](https://arxiv.org/abs/2010.12723) arXiv 2020
 
 ## Code
+
+[update] Code for Constrained Abstractive Summarization is in folder `CAS/`
 
 The code is based on the [seq2seq examples](https://github.com/huggingface/transformers/tree/master/examples) of huggingface transformers (3.0 <= version < 4.0)
 
