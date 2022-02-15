@@ -24,7 +24,7 @@ def add_generic_args(parser, root_dir):
     remark = f'{dataset}'
     parser.add_argument("--remark", type=str, default=remark)
     parser.add_argument("--rl_mode", type=str, default='feat', help='not used in the current project')
-    parser.add_argument("--use_copy", default=True, help='use copy mechanism. Only work when num_beams > 1 for now.')
+    parser.add_argument("--use_copy", default=False, help='use copy mechanism. Only work when num_beams > 1 for now.')
     parser.add_argument("--data_dir", default=f'test_data/{dataset}', type=str)
     parser.add_argument("--n_train", type=int, default=-1, required=False, help="# examples. -1 means use all.")
     parser.add_argument("--n_val", type=int, default=-1, required=False, help="# examples. -1 means use all.")
